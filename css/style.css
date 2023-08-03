@@ -8,6 +8,9 @@ body{
 a{
     text-decoration: none;
 }
+main{
+    margin: 50px 0px;
+}
 header{
     height: auto;
 }
@@ -86,13 +89,53 @@ nav ul li a{
     width: 500px;
 }
 
+/*  header   */
+.about{
+    background-color: #191919;
+    height: auto;
+    padding: 70px 0px;
+}
+.sub-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-content{
+    max-width: 550px;
+    margin-left: 50px;
+}
+.about-content h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+.about-content p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: white;
+}
+.about-photo img{
+    width: 450px;
+    height: 400px;
+    margin-top: 50px;
+}
+
 
 
 
 /* small devices  */
 
 @media screen and (max-width: 567px) {
-    nav, .nav-link, .banner{
+    nav, .nav-link, .banner, .about-me{
         flex-direction: column;
     }
     .nav-link{
@@ -106,6 +149,20 @@ nav ul li a{
         width: 90%;
         margin-top: 50px;
     }
+    .about-me{
+        margin: 40px 20px 0px 0px;
+    }
+    .about-content{
+        padding: 0px 20px 0px 10px;
+    }
+    .about-content h3{
+        font-size: 30px;
+    }
+    .about-photo img{
+        width: 95%;
+        height: 350px;
+        margin-left: 20px;
+    }
 
 }
 
@@ -114,5 +171,11 @@ nav ul li a{
 @media screen and (min-width: 576px) and (max-width: 999px) {
     nav{
         flex-direction: column;
+    }
+    .about-me{
+        padding: 30px;
+    }
+    .about-content{
+        margin-right: 20px;
     }
 }
