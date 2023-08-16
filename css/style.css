@@ -222,13 +222,152 @@ nav ul li a{
     margin-bottom: 30px;
 }
 
+/*    portfolio */
+.portfolio{
+    background-color: #121519;
+    height: auto;
+    padding: 50px 0px;
+}
+.port-main{
+    width: 88%;
+    position: relative;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin: 0px 0px 50px 100px;
+}
+
+.port-main::before{
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 10px;
+    background-color: white;
+    left: 10px;
+    bottom: -35px;
+}
+.text{
+  margin: 100px 0 0  100px;
+  color: white;
+}
+.text p{
+    font-size: 32px;
+    font-family: serif;
+    margin-bottom: 50px;
+}
+.text .text-a{
+    color: #121519;
+    font-size: 20px;
+    background-color: #ff9285;
+    padding: 20px 45px;
+    transition:  all .5s ease-in;
+}
+
+.text .text-a:hover{
+    color: #121519;
+    background-color: #ffe9e7;
+    transition:  all .5s ease-in-out;
+}
+.focus{
+    color: white;
+    text-align: center;
+    margin: 100px 0px;
+}
+.focus h5{
+    font-size: 35px;
+    font-weight: bold;
+}
+.focus h5 i{
+    color: #dfc000;
+    text-align: center;
+    margin-left: 10px;
+}
+.focus-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    margin-bottom: 60px;
+}
+.focus-text{
+    max-width: 550px;
+    width: 100%;
+    border: 1px solid #9397ad;
+    text-align: center;
+    height: 450px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.focus-text h4{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.focus-text h6{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.focus-text i{
+    font-size: 45px;
+    color: #e86321;
+    margin-bottom: 20px;
+}
+
+.focus-text p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.focus-text a{
+    font-size: 20px;
+    border: 1px solid #9397ad;
+    color: white;
+    padding: 15px 35px;
+}
+.wev{
+    position: relative;
+}
+.wev::before{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 10px;
+    left: 31%;
+    bottom: -20px;
+    background-color: white;
+}
+.view{
+    text-align: center;
+}
+.view-a{
+    color: white;
+    border: 1px solid white;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all .5s ease-in;
+}
+
+.view-a:hover{
+    color: #121519;
+    background-color: white;
+    transition: all .5s ease-in-out;
+}
+/*  focus  */
 
 
 /* small devices  */
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 576px) {
     nav, .nav-link, .banner, .about-me, .service-container,
-    .blog-container
+    .blog-container,
+    .focus-content
     {
         flex-direction: column;
     }
@@ -271,6 +410,18 @@ nav ul li a{
     .heading{
         font-size: 30px;
     }
+    .portfolio{
+        padding: 0px 70px 50px 20px;
+    }
+    .port-main{
+        font-size: 35px;
+        margin-left: 30px;
+        padding-top: 20px;
+    }
+    .text{
+       text-align: center;
+       margin: 20px;
+    }
 
 }
 
@@ -291,5 +442,9 @@ nav ul li a{
     }
     .blog-container{
         margin: 0px 50px;
+    }
+    .focus-content{
+        margin: 10px 30px;
+        padding-bottom: 50px;
     }
 }
