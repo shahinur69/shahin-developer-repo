@@ -400,12 +400,90 @@ nav ul li a{
 }
 /*   mobile  */
 
+
+.footer{
+    background-color: #212832;
+    height: auto;
+    padding: 100px 0px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0px 100px;
+}
+.footer-col h4{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+.footer-col ul li{
+    list-style-type: none;
+    display: block;
+    margin: 10px 0px;
+}
+.footer-col p{
+    color: #9397ad;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.footer-col ul li a{
+    color: #9397ad;
+    font-size: 20px;
+    transition: all .5s ease-in;
+}
+
+.footer-col ul li a:hover{
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.footer-col i{
+    font-size: 25px;
+    color: #fedece;
+    background-color: #e86321;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+.footer-col form input{
+    font-size: 18px;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 20px 0px 40px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.footer-col form button{
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   padding: 15px 35px;
+   border-radius: 30px;
+   cursor: pointer;
+   font-size: 16px;
+}
+.flex button{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
 /* small devices  */
 
 @media screen and (max-width: 576px) {
     nav, .nav-link, .banner, .about-me, .service-container,
     .blog-container,
-    .focus-content
+    .focus-content,
+    .footer-content
     {
         flex-direction: column;
     }
@@ -463,7 +541,9 @@ nav ul li a{
     .mobile{
       padding: 50px;
     }
-
+    .footer-col form input{
+        width: 100%;
+    }
 }
 
 /* medium   devices   */
