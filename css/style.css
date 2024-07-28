@@ -9,7 +9,7 @@ a{
     text-decoration: none;
 }
 main{
-    margin: 50px 0px;
+    margin: 50px 0px 0px;
 }
 header{
     height: auto;
@@ -226,7 +226,7 @@ nav ul li a{
 .portfolio{
     background-color: #121519;
     height: auto;
-    padding: 50px 0px;
+    padding: 50px 0px 0px;
 }
 .port-main{
     width: 88%;
@@ -271,7 +271,7 @@ nav ul li a{
 .focus{
     color: white;
     text-align: center;
-    margin: 100px 0px;
+    margin: 50px 0px;
 }
 .focus h5{
     font-size: 35px;
@@ -527,10 +527,7 @@ nav ul li a{
     .heading{
         font-size: 30px;
     }
-    .portfolio{
-        padding: 0px 70px 50px 20px;
-        height: auto;
-    }
+    
     .port-main{
         font-size: 35px;
         margin-left: 30px;
@@ -540,14 +537,15 @@ nav ul li a{
        text-align: center;
        margin: 20px;
     }
-    .focus-text{
-        padding: 20px 0px;
+    .focus-content{
+        margin-right: 55px;
+        padding: 30px;
     }
-    .button-text{
-        margin-bottom: 20px;
+    .focus-text{
+        padding: 40px 30px;
     }
     .mobile{
-      padding: 50px;
+      padding: 40px;
     }
     .footer-col form input{
         width: 100%;
@@ -571,10 +569,6 @@ nav ul li a{
     }
     .blog-container{
         margin: 0px 50px;
-    }
-    .portfolio{
-        height: auto;
-        padding-bottom: 50px;
     }
     .mobile{
         padding: 50px;
