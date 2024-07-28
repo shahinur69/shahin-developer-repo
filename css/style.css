@@ -538,6 +538,12 @@ nav ul li a{
        text-align: center;
        margin: 20px;
     }
+    .focus-text{
+        padding: 20px 0px;
+    }
+    .button-text{
+        margin-bottom: 20px;
+    }
     .mobile{
       padding: 50px;
     }
@@ -564,10 +570,7 @@ nav ul li a{
     .blog-container{
         margin: 0px 50px;
     }
-    .focus-content{
-        margin: 10px 30px;
-        padding-bottom: 50px;
-    }
+
     .mobile{
         padding: 50px;
       }
