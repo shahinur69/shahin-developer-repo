@@ -528,6 +528,7 @@ nav ul li a{
     }
     .portfolio{
         padding: 0px 70px 50px 20px;
+        height: auto;
     }
     .port-main{
         font-size: 35px;
